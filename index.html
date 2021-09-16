@@ -933,19 +933,15 @@
         <script src="js/swiper.min.js"></script>
         <script src="js/main.js"></script>
       
-        <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/60e584e6d6e7610a49aa0c37/1fa08u9at';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+<script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "2b639754-7b31-424e-9ee7-ece7712eac69",
+      host: "https://wchat.in.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.in.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"Freshdesk Messaging-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
 </script>
-<!--End of Tawk.to Script-->
       
 
 	  
